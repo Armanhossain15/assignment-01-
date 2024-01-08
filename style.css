@@ -206,7 +206,8 @@ button {
     margin-bottom: 16px;
 }
 
-.coming-soon p, .coming-soog-right-text p {
+.coming-soon p,
+.coming-soog-right-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -222,37 +223,42 @@ button {
     font-weight: 700;
     margin-bottom: 16px;
 }
-.coming-soog-right-text img{
+
+.coming-soog-right-text img {
     width: 140px;
     height: auto;
 }
 
 /* holidays-sale */
-.holidays-sale{
+.holidays-sale {
     text-align: center;
     padding: 120px 0;
 }
-.upper-text{
+
+.upper-text {
     margin-bottom: 64px;
 }
-.upper-text h4{
+
+.upper-text h4 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.upper-text h2{
+
+.upper-text h2 {
     font-size: 72px;
     font-weight: 900;
     color: #F00;
     font-family: Merriweather;
     margin-bottom: 16px;
 }
-.upper-text span{
+
+.upper-text span {
     color: #070211;
 }
 
-.upper-text p{
+.upper-text p {
     font-size: 20px;
     font-weight: 500;
     font-family: Inter;
@@ -263,53 +269,60 @@ button {
     margin-bottom: 28px;
 }
 
-#flex-item{
+#flex-item {
     display: flex;
     justify-content: end;
 }
-.leftimg img{
+
+.leftimg img {
     width: 750px;
     height: auto;
     margin-right: 160px;
     margin-top: 80px;
 }
-.rightimg img{
+
+.rightimg img {
     width: 400px;
     height: auto;
     margin-top: 47px;
     margin-right: -40px;
 }
-.red-img img{
+
+.red-img img {
     position: absolute;
     left: 0;
     top: 450px;
     z-index: -1;
 }
-.redcarcel img{
+
+.redcarcel img {
     position: absolute;
     top: 130px;
     right: 250px;
     width: 280px;
     height: auto;
 }
+
 /* holidays-sale */
 
 /* Portfolio */
-.up-text h4{
+.up-text h4 {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
     font-family: Inter;
     margin-bottom: 16px;
 }
-.up-text h2{
+
+.up-text h2 {
     font-size: 48px;
     font-weight: 900;
     font-family: Merriweather;
     color: #070211;
     margin-bottom: 22px;
 }
-.up-text p{
+
+.up-text p {
     font-size: 20px;
     font-weight: 500;
     font-family: Inter;
@@ -319,45 +332,52 @@ button {
     margin-bottom: 48px;
 }
 
-.portfolio-imgs{
+.portfolio-imgs {
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: .5s;
     gap: 20px;
 }
-.portfolio-imgs img{
+
+.portfolio-imgs img {
     transition: .5s;
 }
-.portfolio-imgs img:hover{
+
+.portfolio-imgs img:hover {
     transition: .5s;
     scale: 1.1;
 }
+
 /* Portfolio */
 
 /* newslatter */
-.newslatter{
+.newslatter {
     margin: 120px auto;
     text-align: center;
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
 }
-.newslatter-content{
+
+.newslatter-content {
     padding: 80px 0;
 }
-.newslatter-content img{
+
+.newslatter-content img {
     width: 150px;
     height: auto;
     margin-bottom: 40px;
 }
-.newslatter-content h1{
+
+.newslatter-content h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
 }
-.newslatter-content p{
+
+.newslatter-content p {
     font-size: 20px;
     font-family: Inter;
     line-height: 32px;
@@ -367,7 +387,8 @@ button {
     margin-bottom: 48px;
     font-weight: 400;
 }
-#inputbox{
+
+#inputbox {
     padding: 25px 30px;
     background-color: rgb(255, 255, 255);
     border: none;
@@ -379,7 +400,7 @@ button {
     padding-right: 200px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     padding: 25px 30px;
     border: none;
     outline: none;
@@ -395,3 +416,36 @@ input[type="submit"]{
 
 
 /* newslatter */
+
+/* footer */
+.footer-content .upp-text,
+.footer-content .lower-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upp-text .left-text p,
+.contact h4 {
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+hr {
+    margin: 50px 0;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.lower-content p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* footer */
