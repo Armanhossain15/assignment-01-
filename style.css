@@ -5,7 +5,7 @@
 }
 
 .fixed-width {
-    width: 1320px;
+    width: 1280px;
     height: auto;
     margin: auto;
 }
@@ -132,6 +132,7 @@ header {
     width: 300px;
     height: auto;
     margin-top: -10px;
+    flex-shrink: 0;
 }
 
 /* midnight party */
@@ -225,3 +226,172 @@ button {
     width: 140px;
     height: auto;
 }
+
+/* holidays-sale */
+.holidays-sale{
+    text-align: center;
+    padding: 120px 0;
+}
+.upper-text{
+    margin-bottom: 64px;
+}
+.upper-text h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.upper-text h2{
+    font-size: 72px;
+    font-weight: 900;
+    color: #F00;
+    font-family: Merriweather;
+    margin-bottom: 16px;
+}
+.upper-text span{
+    color: #070211;
+}
+
+.upper-text p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+#flex-item{
+    display: flex;
+    justify-content: end;
+}
+.leftimg img{
+    width: 750px;
+    height: auto;
+    margin-right: 160px;
+    margin-top: 80px;
+}
+.rightimg img{
+    width: 400px;
+    height: auto;
+    margin-top: 47px;
+    margin-right: -40px;
+}
+.red-img img{
+    position: absolute;
+    left: 0;
+    top: 450px;
+    z-index: -1;
+}
+.redcarcel img{
+    position: absolute;
+    top: 130px;
+    right: 250px;
+    width: 280px;
+    height: auto;
+}
+/* holidays-sale */
+
+/* Portfolio */
+.up-text h4{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    margin-bottom: 16px;
+}
+.up-text h2{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.up-text p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Inter;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 75%;
+    margin-bottom: 48px;
+}
+
+.portfolio-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+    gap: 20px;
+}
+.portfolio-imgs img{
+    transition: .5s;
+}
+.portfolio-imgs img:hover{
+    transition: .5s;
+    scale: 1.1;
+}
+/* Portfolio */
+
+/* newslatter */
+.newslatter{
+    margin: 120px auto;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+}
+.newslatter-content{
+    padding: 80px 0;
+}
+.newslatter-content img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.newslatter-content h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.newslatter-content p{
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 70%;
+    margin: auto;
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+#inputbox{
+    padding: 25px 30px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-family: Inter;
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.30);
+    border-radius: 100px 0 0 100px;
+    padding-right: 200px;
+}
+
+input[type="submit"]{
+    padding: 25px 30px;
+    border: none;
+    outline: none;
+    background-color: #F00;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter;
+    border-radius: 0 100px 100px 0;
+    margin-left: -5px;
+}
+
+
+/* newslatter */
