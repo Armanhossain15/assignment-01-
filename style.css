@@ -21,7 +21,7 @@ header {
 }
 
 .banner {
-    margin-top:50px;
+    margin-top: 50px;
     border-radius: 16px;
 }
 
@@ -438,12 +438,12 @@ input[type="submit"] {
     align-items: center;
 }
 
-.upp-text .left-text p,
-.contact h4 {
-    font-size: 20px;
+#left-text p, .text h4, .lower-content p {
+    color: #FFF;
     font-family: Inter;
-    line-height: 32px;
+    font-size: 24px;
     font-weight: 500;
+    line-height: 40px;
 }
 
 hr {
@@ -454,11 +454,6 @@ hr {
     text-align: center;
 }
 
-.lower-content p {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-}
+
 
 /* footer */
